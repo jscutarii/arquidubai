@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Emirados Árabes Unidos — Projeto</title>
+  <style>
+    :root{
+      --uae-red:#CE1126;
+      --uae-green:#00732F;
+      --uae-white:#FFFFFF;
+      --uae-black:#000000;
+      --maxw:1100px;
+      --radius:14px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    body{margin:0;background:linear-gradient(180deg,var(--uae-white),#f7f7f7);color:#111}
+    header{background:var(--uae-black);color:var(--uae-white)}
+    .container{max-width:var(--maxw);margin:0 auto;padding:28px}
+
+   
+
+    nav{display:flex;justify-content:space-between;align-items:center}
+    .brand{display:flex;gap:12px;align-items:center}
+    .brand .dot{width:44px;height:44px;border-radius:8px;background:linear-gradient(45deg,var(--uae-red),var(--uae-green));display:flex;align-items:center;justify-content:center;font-weight:700}
+    .nav-links{display:flex;gap:18px}
+    a.link{color:inherit;text-decoration:none;padding:8px 12px;border-radius:8px}
+    a.link:hover{background:#ffffff22}
+
+    main{padding:28px 0}
+    .grid{display:grid;grid-template-columns:1fr 360px;gap:24px}
+    .card{background:white;border-radius:16px;padding:18px;box-shadow:0 6px 24px rgba(17,17,17,0.06)}
+
+    h1{margin:6px 0 12px;font-size:28px}
+    h2{margin:0 0 8px;font-size:18px}
+    p{line-height:1.45;margin:0 0 12px}
+
+    /* Flag band used as accent */
+    .accent-flag{display:flex;border-radius:12px;overflow:hidden;margin:12px 0}
+    .accent-flag > div{flex:1;min-height:12px}
+
+    footer{padding:28px 0;color:#666;font-size:14px}
+
+    /* responsive */
+    @media (max-width:880px){
+      .grid{grid-template-columns:1fr}
+      .brand .dot{width:36px;height:36px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">
+          <div class="dot">1ºb</div>
+          <div>
+            <div style="font-weight:700">Dubai</div>
+            
+        </div>
+        <div class="nav-links">
+          <a class="link" href="#Burj Khalifa">Burj Khalifa</a>
+          <a class="link" href="#Burj AI Arab Jumeriah">Burj AI Arab Jumeriah</a>
+          <a class="link" href="#Palm Jumeirah">Palm Jumeirah</a>
+          <a class="link" href="#Arquitetura">Arquitetura</a>
+          <a class="link" href="#Inovação">Inovação</a>
+        </div>
+      </nav>
+
+      <!-- Flag hero: left red column + right green/white/black stripes -->
+      <div class="flag-hero" style="margin-top:18px">
+        <div class="flag-col flag-left"></div>
+        <div style="flex:1">
+          <div class="flag-top"></div>
+          <div class="flag-mid"></div>
+          <div class="flag-bot"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+      <section>
+        <div class="card">
+          <h1 id="Burj Khalifa">Burj Khalifa</h1>
+          <p>O projeto do Burj Khalifa foi parte de uma iniciativa maior do governo de Dubai para diversificar sua economia, tradicionalmente dependente do petróleo, e transformar a cidade em um centro global de turismo, finanças e entretenimento.
+             O design do edifício foi liderado pelo arquiteto americano Adrian Smith, da Skidmore, Owings & Merrill (SOM). 
+             A inspiração para a sua forma em espiral, que se estreita à medida que sobe, veio da Hymenocallis, uma flor do deserto. Esse design não é apenas estético, mas também funcional, ajudando a reduzir a força do vento sobre a estrutura. A construção do Burj Khalifa começou em 2004 e foi um empreendimento monumental. 
+A construção de uma estrutura de tal magnitude apresentou desafios únicos, desde a estabilidade da fundação no solo arenoso do deserto até o bombeamento de concreto a alturas sem precedentes. Para a fundação, foram utilizadas estacas de concreto armado com 1,5 metro de diâmetro e mais de 45 metros de profundidade. O Burj Khalifa foi oficialmente inaugurado em 4 de janeiro de 2010, em uma cerimônia espetacular com show de luzes e fogos de artifício. Originalmente conhecido como Burj Dubai, o edifício foi rebatizado na inauguração para Burj Khalifa em homenagem a Khalifa bin Zayed Al Nahyan, o presidente dos Emirados Árabes Unidos e governante de Abu Dhabi, que concedeu um empréstimo crucial para a conclusão do projeto durante a crise financeira de 2008.      </p>
+
+          <div class="accent-flag" aria-hidden>
+            <div style="background:var(--uae-red)"></div>
+            <div style="background:var(--uae-green)"></div>
+            <div style="background:var(--uae-white)"></div>
+            <div style="background:var(--uae-black)"></div>
+          </div>
+
+          <h2 id="Burj AI Arab Jumeriah">Burj AI Arab Jumeriah</h2>
+          <p>O Burj Al Arab Jumeirah não é apenas um hotel; é um marco que redefiniu o conceito de luxo e se tornou um símbolo duradouro da ambição e transformação de Dubai. Sua silhueta, imitando a vela de um dhow (barco tradicional árabe), é instantaneamente reconhecível em todo o mundo. Esta é a história de como essa maravilha arquitetônica surgiu no Golfo Pérsico.  No início da década de 1990, o governante de Dubai, Sheikh Mohammed bin Rashid Al Maktoum, tinha uma visão audaciosa: criar um edifício que se tornasse um ícone para Dubai, assim como a Torre Eiffel é para Paris ou a Ópera para Sydney. O objetivo era construir uma estrutura que simbolizasse a transformação urbana da cidade e a colocasse no mapa global do turismo de luxo. O projeto foi liderado pelo arquiteto britânico Tom Wright, da consultoria Atkins. Sua proposta de um edifício em forma de vela de dhow foi a que capturou a essência da herança marítima da região com um toque de modernidade.
+ A construção do hotel em si começou em 1994, logo após a ilha ser assegurada, e durou cinco anos. A estrutura externa é composta por um exoesqueleto de aço que envolve uma torre de concreto armado. A "vela" é formada por uma fachada de tecido de fibra de vidro com dupla camada e revestimento de Teflon, a primeira do seu tipo no mundo a ser usada verticalmente em tal escala, que durante o dia difunde uma luz suave no interior e à noite se torna uma tela para projeções de luz. O Burj Al Arab Jumeirah foi oficialmente inaugurado em 1º de dezembro de 1999, a tempo para as celebrações do novo milênio.</p>
+
+          <h2 id="Palm Jumeirah">Palm Jumeirah</h2>
+          <p>No final dos anos 1990, Dubai estava em plena expansão turística. No entanto, sua costa era relativamente limitada. Para realizar a ambição de se tornar um dos principais destinos turísticos do mundo, com resorts de praia e residências de luxo, a cidade precisava de mais litoral. A solução, concebida sob a liderança do Sheikh Mohammed bin Rashid Al Maktoum, não foi apenas estender a costa, mas redesenhá-la de uma forma espetacular. A ideia de ilhas em formato de palmeira, um símbolo associado ao paraíso e à cultura local, foi a escolhida. A construção da Palm Jumeirah, a primeira e mais famosa das "Palm Islands", começou em junho de 2001. O projeto foi liderado pela incorporadora estatal Nakheel Properties.  
+Engenharia sem Concreto: Diferente de muitas estruturas marítimas, a fundação da ilha não foi construída com concreto ou aço. Em vez disso, foi criada através de um processo de dragagem e recuperação de terras. Cerca de 94 milhões de metros cúbicos de areia e rochas  foram dragados do fundo do Golfo Pérsico e depositados para formar a ilha. A infraestrutura básica da ilha foi concluída por volta de 2004, e os primeiros residentes começaram a se mudar para suas vilas e apartamentos em 2006, marcando o início da vida nesta nova e extraordinária comunidade. A ilha foi totalmente finalizada em 2008.
+ A Palm Jumeirah adicionou cerca de 78 quilômetros à limitada linha costeira de Dubai. Mais do que isso, tornou-se um testemunho duradouro da capacidade da cidade de transformar ideias ambiciosas em realidade. É um destino residencial exclusivo, um ponto turístico de primeira linha e um símbolo inconfundível do dinamismo e da inovação do século XXI.</p>
+
+          <h2 id="Arquitetura">Arquitetura</h2>
+          <p>Os Emirados Árabes Unidos apresentam uma fascinante dualidade, onde a herança do deserto e a cultura islâmica convive com uma ambição futurística que redefine constantemente os limites da engenharia e do design. 
+
+As origens: Arquitetura Tradicional 
+Materiais Locais: As paredes eram feitas de coral e gesso, materiais porosos que ajudavam no isolamento térmico. Amadeira de palmeira era utilizada para as vigas e telhados, e suas folhas de palmeiras eram usadas para criar abrigos mais simples. 
+Pátios Internos e Vielas Estreitas: As casas eram organizas ao redor de um pátio que proporcionava privacidade e locais mais frescos para as famílias. O Al fahidi é um bairro histórico composto por vielas estreitas projetadas para maximizar a sombra e minimizar a exposição direta ao Sol.           
+
+ Explosão da Modernidade: Ícones arquitetônicos de Dubai
+museu do futuro: Um dos mais recentes e filosóficos acréscimos à paisagem de Dubai, o Museu do Futuro não é apenas um edifício, mas uma declaração arquitetônica sobre o futuro da humanidade. Sua forma de toro (anel) representa a humanidade, enquanto o vazio no centro simboliza o futuro desconhecido e as possibilidades que ele detém. A fachada é uma tela para a arte, adornada com caligrafia árabe que reproduz citações do governante de Dubai sobre o futuro.   
+Dubai Frame: Dubai Frame é um ícone de genialidade conceitual. Com 150 metros de altura e 93 metros de largura, esta gigantesca moldura de quadro oferece duas perspectivas completamente diferentes da cidade. De um lado, enquadra as vistas do "velho Dubai", com seus souks e o Dubai Creek. Do outro, emoldura a paisagem moderna de Downtown, dominada pelo Burj Khalifa.  </p>
+
+        <div style="height:18px"></div>
+        <h2 id="Inovação">Inovação</h2>
+        <p>Dubai, a joia dos Emirados Árabes Unidos, consolidou-se como um epicentro global de inovação, impulsionando avanços audaciosos que redefinem os limites da tecnologia. Com uma visão estratégica e investimentos massivos, a cidade-estado está construindo um futuro que mais parece saído da ficção científica, servindo de laboratório vivo para as tecnologias e ideias que moldarão o amanhã. 
+
+Tecnologia: O Cérebro do Deserto 
+No coração da transformação de Dubai está a sua ambição de se tornar uma das cidades mais inteligentes do mundo. A cidade aposta forte em Inteligência Artificial (IA) e robótica, com aplicações que vão desde a cirurgia robótica de alta precisão nos hospitais até a segurança cibernética avançada. Dubai é um polo de atração para investimentos em IA fomentando um ecossistema de startups e centros de pesquisa e desenvolvimento. 
+Energia Renovável e Sustentabilidade: Liderando a Transição Energética 
+Dubai está fazendo investimentos colossais em energia limpa. A peça central dessa estratégia é o Parque Solar Mohammed bin Rashid Al Maktoum, um dos maiores projetos de energia solar do mundo. Com a meta de gerar 75% de sua energia a partir de fontes limpas até 2050, delineada na "Dubai Clean Energy Strategy 2050", a cidade está na vanguarda da transição energética.  
+
+Transporte e Logística: Mobilidade Inteligente e Conectada 
+Projetos futuristas como o "Dubai Loop", um sistema de transporte subterrâneo de alta velocidade, prometem descongestionar o trânsito e oferecer uma alternativa de mobilidade rápida e sustentável. No campo dos veículos autônomos, a cidade já realiza testes bem-sucedidos com robô-táxis e robô-ônibus, com a visão de automatizar uma parcela significativa de sua frota de transporte nos próximos anos. Além disso, o uso de drones para entregas e logística está sendo ativamente explorado, prometendo revolucionar o setor de entregas. 
+</p>
+      <aside>
+        <div class="card">
+          <h2>Ficha rápida</h2>
+          <p><strong>País</strong> Emirados Árabes Unidos</p>
+          <p><strong>Idioma oficial:</strong> Árabe</p>
+          <p><strong>População (estimada):</strong> ~10 milhões</p>
+          <p><strong>Moeda:</strong> Dirham dos Emirados (AED)</p>
+        </div>
+
+        <div style="height:18px"></div>
+
+        <div class="card">
+          <h2>Galeria</h2>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+  <img src="https://aresdomundo.com/wp-content/uploads/2021/04/burj-khalifa-2212978_640-500x333.jpg" alt="Burj Khalifa" style="width:100%;border-radius:8px;height:auto">
+  <img src="https://media.istockphoto.com/id/621469590/photo/burj-al-arab-jumeirah-at-night.jpg?s=612x612&w=0&k=20&c=teCHqKrzDsvphMv0t4P99zO6rjngAdKh9inFhyIp60U=" alt="Burj Al Arab" style="width:100%;border-radius:8px;height:auto">
+  <img src="https://www.viessmann.com.au/content/dam/public-brands/master/references/palm-islands-dubai/Palm-Islands-Dubai-Haeder-16-9-1920x1080px.jpg/_jcr_content/renditions/original./Palm-Islands-Dubai-Haeder-16-9-1920x1080px.jpg" alt="Palm Jumeirah" style="width:100%;border-radius:8px;height:auto">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhQQUKFlans_fUnE_TwFeqKe-C9IVdoInGRw&s" alt="Museu do Futuro" style="width:100%;border-radius:8px;height:auto">
+</div>
+
+          </div>
+        </div>
+
+        <div style="height:18px"></div>
+
+        
+      </aside>
+    </div>
+  </main>
+
+  <footer class="container">
+    <div class="card" style="display:flex;align-items:center;justify-content:space-between">
+      <div>
+        <div style="font-weight:700">Festa das Nações</div>
+        <div style="font-size:13px;opacity:.85">2025 1ºb</div>
+      </div>
+      <div>
+        
+      </div>
+    </div>
+
+    <!-- IMPORTANT: I could not open the Canva link provided (Canva blocks automated requests). If you want exact text/images from your Canva design, paste the text here or upload images and I'll integrate them into the site. -->
+  </footer>
+</body>
+</html>
